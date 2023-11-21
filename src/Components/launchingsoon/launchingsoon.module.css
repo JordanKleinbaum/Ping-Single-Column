@@ -1,0 +1,14 @@
+.we {
+  font-weight: 300;
+  color: hsl(0, 0%, 59%);
+  margin-bottom: 35px;
+}
+
+.soon {
+  font-weight: 700;
+  color: hsl(209, 33%, 12%);
+}
+
+.subscribe {
+  margin-bottom: 35px;
+}

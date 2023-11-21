@@ -1,0 +1,43 @@
+.everything {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 35px;
+}
+
+.errormessage {
+  position: absolute;
+  font-size: 80%;
+  color: red;
+}
+
+.button {
+  color: white;
+  border: none;
+  background-color: hsl(223, 87%, 63%);
+  border-radius: 25px;
+  padding: 10px 40px;
+  font-weight: bold;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.45);
+  margin: 0px 10px;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: hsl(223, 81%, 71%);
+}
+
+.invalid {
+  & input {
+    border-color: red; /* Set the border color to red or any color you prefer */
+  }
+}
+
+.valid {
+  border-radius: 20px;
+  padding: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: hsl(0, 0%, 79%);
+  padding: 10px 50px 10px 10px;
+  position: relative;
+}
