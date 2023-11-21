@@ -2,7 +2,7 @@ import styles from "./title.module.css";
 function Title() {
   return (
     <>
-      <img src="./images/logo.svg" className={styles.ping} />
+      <img src="./logo.svg" alt="Image" className={styles.ping} />
     </>
   );
 }
